@@ -1,0 +1,26 @@
+name:                   Noobing
+version:                0.0.1
+stability:              provisional
+license:                BSD3
+license-file:           LICENSE
+
+cabal-version:          >= 1.8
+build-type:             Simple
+
+author:                 Mark MQ
+maintainer:             Mark MQ
+homepage:               github.com/markmq/Noobing
+
+category:               Experimental
+synopsis:               Noobing stuff.
+
+Library
+ hs-source-dirs:        src
+ exposed-modules:
+                        Noobing.Experimenting.List
+                        Noobing.Experimenting.IO
+                        Noobing.Experimenting.Test
+                        Noobing.Experimenting.AddStuff
+
+ build-depends:         base >= 3 && <5
+ ghc-options:           -Wall -rtsopts
